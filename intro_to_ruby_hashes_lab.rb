@@ -2,12 +2,9 @@ def base_hash
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
   hash = {
-  railroads: {
-    pieces: 4,
-    rent_in_dollars: {},
-    names: {}
-  }
-  }
+  railroads: {}
+  } 
+
 end
 
 def monopoly_with_second_tier
@@ -16,7 +13,11 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   hash = {
-  railroads: {}
+  railroads: {
+    pieces: 4,
+    rent_in_dollars: {},
+    names: {}
+  }
   }
 end
 
